@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 import logo from '../assets/icons/logo.png'
 
 const Header = () => {
-	const tweetText = encodeURIComponent(`试试这个工具：https://cover.qyliu.top/ @rutikdotdev`);
+	const tweetText = encodeURIComponent(`试试这个工具：https://view.gyhwd.top/ @rutikdotdev`);
 
 	return (
 		<div className="bg-white text-xl md:px-2 flex border-dashed border-b-2 border-gray-100 p-2">
