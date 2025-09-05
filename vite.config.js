@@ -6,12 +6,12 @@ import { resolve } from 'path'
 export default defineConfig({
   plugins: [react()],
   resolve: {
-    alias: [
-      { find: '@', replacement: resolve(__dirname, 'src') },
-      { find: '@assets', replacement: resolve(__dirname, 'src/assets') },
-      { find: '@components', replacement: resolve(__dirname, 'src/components') },
-      { find: '@utils', replacement: resolve(__dirname, 'src/utils') }
-    ]
+    alias: {
+      '@': resolve(__dirname, 'src'),
+      '@assets': resolve(__dirname, 'src/assets'),
+      '@components': resolve(__dirname, 'src/components'),
+      '@utils': resolve(__dirname, 'src/utils')
+    }
   },
   server: {
     port: 3000,
@@ -20,6 +20,10 @@ export default defineConfig({
   },
   build: {
     outDir: 'dist',
-    sourcemap: true
-  }
+    sourcemap: false, // 生产环境建议关闭，减小体积
+    rollupOptions: {
+      // 确保没有错误的 manualChunks 配置
+    }
+  },
+  publicDir: 'public'
 })

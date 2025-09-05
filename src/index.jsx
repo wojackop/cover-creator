@@ -1,18 +1,19 @@
-// src/index.js
-import React from 'react'
-import { createRoot } from 'react-dom/client' // ✅ React 18 新 API
-import App from './components/App'
-import './index.css'
+// src/index.jsx
+import React from 'react';
+import { createRoot } from 'react-dom/client';
+import App from './components/App';
+import './index.css';
 
-// 获取根元素
-const container = document.getElementById('root')
+// 确保根元素存在
+const container = document.getElementById('root');
+if (!container) {
+  throw new Error('Root element not found. Check your index.html');
+}
 
-// 创建 root
-const root = createRoot(container)
-
-// 渲染应用
+// 创建 root 并渲染
+const root = createRoot(container);
 root.render(
   <React.StrictMode>
     <App />
   </React.StrictMode>
-)
+);
