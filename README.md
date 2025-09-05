@@ -29,8 +29,8 @@
 
 ```bash
 # 克隆仓库
-git clone https://github.com/willow-god/CoverView.git
-cd CoverView
+git clone https://github.com/wojackop/cover-creator
+cd cover-creator
 
 # 使用 pnpm 安装依赖 (推荐)
 pnpm install

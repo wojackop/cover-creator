@@ -31,8 +31,8 @@ This project has been successfully migrated from `create-react-app` to the moder
 
 ```bash
 # Clone the repository
-git clone https://github.com/willow-god/CoverView.git
-cd CoverView
+git clone https://github.com/wojackop/cover-creator
+cd cover-creator
 
 # Install dependencies with pnpm (recommended)
 pnpm install
