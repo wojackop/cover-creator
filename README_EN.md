@@ -7,9 +7,9 @@
 
 **Creating cover images for your blogs has never been easier.** This is an open-source tool designed to help you quickly and effortlessly create beautiful cover images for your blog posts or social media.
 
-![Example 1](./public/img1.png)
+![Example 1](./public/images/readme/img1.png)
 
-![Example 2](./public/img2.png)
+![Example 2](./public/images/readme/img2.png)
 
 ---
 
