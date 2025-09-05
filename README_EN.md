@@ -3,7 +3,7 @@
   <a href="https://github.com/wojackop/cover-creator"><img src="https://badges.frapsoft.com/os/v1/open-source.svg?v=103"></a>
   <a href="https://lbesson.mit-license.org"><img src="https://img.shields.io/badge/License-MIT-blue.svg"></a>
 </p>
-## Introduction
+## 📝 Introduction
 
 **Creating cover images for your blogs has never been easier.** This is an open-source tool designed to help you quickly and effortlessly create beautiful cover images for your blog posts or social media.
 
@@ -27,7 +27,7 @@
 
 This project has been successfully migrated from `create-react-app` to the modern **Vite + React 18 + pnpm** tech stack.
 
-### Clone and Install
+### 📥 Clone and Install
 
 ```bash
 # Clone the repository
@@ -41,7 +41,7 @@ pnpm install
 npm install
 ```
 
-### Start the Development Server
+### ▶️ Start the Development Server
 
 ```bash
 # Start the development environment
@@ -51,7 +51,7 @@ pnpm dev
 
 The server will start at `http://localhost:3000`.
 
-### Build for Production
+### 🏗️ Build for Production
 
 ```bash
 # Build static assets for production
